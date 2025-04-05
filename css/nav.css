@@ -1,0 +1,14 @@
+.navdiv{
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center  !important;
+    align-items: center !important;
+}
+
+.navbar{
+    /* background: transparent !important;
+    background-color: transparent !important; */
+    background-color: burlywood !important;
+    background: palegoldenrod !important;
+}
+

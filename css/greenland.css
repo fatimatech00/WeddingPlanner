@@ -1,0 +1,119 @@
+::selection{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/premium-vector/pink-flower-background-with-watercolor-effect_664601-2866.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .red{
+       
+        text-align: center;
+    font-size: 2.3rem;
+    color: rgb(104, 103, 103);
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+
+
+    }
+    .pink{
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+        font-size: larger;
+        font-style: normal;
+        text-decoration: black;
+        text-shadow: black;
+        text-decoration-line: underline;
+        
+        
+
+    }
+    .link-offset-2{
+        color: brown;
+    }
+   
+    .box{
+        transition: 1s;
+        
+    }
+    .box img{
+        display: block;
+        width: 500px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        float: right;
+        border-top-left-radius: 30px;
+    border: bottom right radius 30px; 
+    border-style: groove;
+    border-color: brown;
+
+        
+    }
+    
+    .box:hover{
+        transform: scale(1.1);
+        z-index: 2;
+
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+      }
+  
+      .place {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+        padding: 20px;
+      }
+  
+      .box {
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        background: #fff;
+      }
+  
+      .box img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+  
+      .box:hover img {
+        transform: scale(1.05);
+      }
+  
+      @media screen and (max-width: 500px) {
+        .box img {
+          height: 220px;
+        }
+      }
+    /* .section33{
+        background-color: peachpuff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        
+    }
+    
+    .section33 button{
+        border-radius: 30px;
+        border-color: brown;
+        background: none;
+        padding: 9px 9px ;
+        font-family: cursive;
+        font-size: 90%;
+        color: brown;
+    
+    } */

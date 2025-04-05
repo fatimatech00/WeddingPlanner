@@ -1,0 +1,253 @@
+
+/* contact form  */
+
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    background-color: rgb(255, 230, 209);
+ 
+}
+
+.contact-bg{
+    height: 40vh;
+    
+    background: url("../image\ &videos/img2.jpg");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-bg h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+.contact-bg h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+
+}
+
+.line div{
+    margin: 0 0.2rem;
+}
+
+.line div:nth-child(1),
+.line div:nth-child(3){
+    height: 3px;
+    width: 70px;
+    background:  rgb(219, 79, 79);
+    border-radius: 5px;
+
+}
+
+.line{
+    display: flex;
+    align-items: center;
+}
+
+.line div:nth-child(2){
+    width: 10px;
+    height: 10px;
+    background:   rgb(219, 79, 79);
+    border-radius: 50%;
+}
+
+.text{
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.contact-bg .text{
+    margin: 1.6rem;
+}
+
+.contact-body{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+.contact-info span{
+    display: block;
+}
+
+.contact-info div{
+    margin: 0.8rem 0;
+    padding: 1rem;
+
+}
+
+/* .contact-info span .fas{
+    font-size: 2rem;
+    padding-bottom: 0.9rem;
+    color: rgb(219, 79, 79) ;
+} */
+
+.contact-info div span:nth-child(2){
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.contact-info.text{
+    padding-top: 0.4rem;
+}
+
+.contact-form{
+    padding: 2rem 0;
+    border-top: 2px solid rgb(234, 208, 208);
+}
+
+.contact-form form{
+    padding-bottom: 1rem;
+}
+
+.form-control{
+    width: 100%;
+    border: 1.5px solid rgb(234, 208, 208);
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 0.6rem 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    outline: 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48,1)
+}
+
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+}
+
+.sent-btn{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    background:  rgb(219, 79, 79);
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+
+    transition: all 0.4s ease;
+}
+
+.sent-btn:hover{
+    color: black;
+}
+
+.section2{
+    height: 70vh;
+    background: url(img2.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+
+}
+.section2 H2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+
+}
+
+.section2 p{
+    font-weight: 300;
+    opacity: 0.9;
+    margin: 1.6rem;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.442);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+    color:white;
+    background-color:rgb(219, 79, 79)  ;
+
+}
+
+.section3{
+    margin-top: 5%;
+}
+
+::selection{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+
+/* .section33{
+    background-color: peachpuff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.section33 button{
+    border-radius: 30px;
+    border-color: brown;
+    background: none;
+    padding: 9px 9px ;
+    font-family: cursive;
+    font-size: 90%;
+    color: brown;
+
+} */
+
+
+    
+
+
+
+
+
+
+
+

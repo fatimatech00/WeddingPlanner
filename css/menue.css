@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ 
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+  background: url(https://img.freepik.com/premium-vector/pink-flower-background-with-watercolor-effect_664601-2866.jpg?w=1380);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.section2 h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    color: rgb(104, 103, 103);
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 3px;
+  
+}
+   
+
+.section2{
+
+    height: 70vh;
+    background: url(img2.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    align-items: center;  
+ }
+
+ .section2 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.6;
+    margin: 1.5rem;
+ }
+
+ .line div{
+    margin: 0 0.2rem;
+}
+
+.line div:nth-child(1),
+.line div:nth-child(3){
+    height: 3px;
+    width: 200px;
+    background:  rgb(219, 79, 79);
+    border-radius: 5px;
+
+}
+
+.line{
+    display: flex;
+    align-items: center;
+}
+
+.line div:nth-child(2){
+    width: 10px;
+    height: 10px;
+    background:   rgb(219, 79, 79);
+    border-radius: 50%;
+}
+
+
+.section1 h3{
+ text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: rgb(104, 103, 103);
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 1px;
+
+}
+
+.section3 h3{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: rgb(104, 103, 103);
+ 
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 1px;
+}
+
+
+.section4 h3{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: rgb(104, 103, 103);
+ 
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 1px;
+}
+
+.section4 p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.6;
+    margin: 1.5rem;
+
+}
+
+.section4{
+   
+
+    height: 70vh;
+    background: url(img2.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;  
+   
+ }
+
+ .section5{
+    margin-top: 50px;
+    
+ }
+.box{
+
+    box-shadow: 10px   10px 10px rgb(58, 57, 57)!important;
+
+
+}
+
+::selection{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+
+/* .section33{
+    background-color: peachpuff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.section33 button{
+    border-radius: 30px;
+    border-color: brown;
+    background: none;
+    padding: 9px 9px ;
+    font-family: cursive;
+    font-size: 90%;
+    color: brown;
+
+}
+
+
+  */
+
